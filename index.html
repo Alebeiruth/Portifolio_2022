@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- load CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>Meu portfolio</title>
+</head>
+
+<body>
+      <!-- Carregar -->
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+  
+      <div class="tm-main-container">
+        <div class="tm-top-container">
+                  <!-- Menu -->
+        <nav id="tmNav" class="tm-nav">
+            <a class="tm-navbar-menu" href="#">Menu</a>
+            <ul class="tm-nav-links">
+              <li class="tm-nav-item active">
+                <a href="#" data-linkid="0" data-align="right" class="tm-nav-link">Introdução</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">Sobre</a>
+              </li>
+              <li class="tm-nav-item">
+                <a
+                  href="#"
+                  data-linkid="2"
+                  data-align="middle"
+                  class="tm-nav-link">Projetos</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Site header -->
+        <header class="tm-site-header-box tm-bg-dark">
+          <h1 class="tm-site-title">Portifolio</h1>
+          <p class="mb-0 tm-site-subtitle">Alexandre Beiruth - estudante de Ciências da Computação / PUCPR</p>
+        </header>
+      </div>
+
+          <!-- tm-top-conteudo -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Site conteudo -->
+            <div class="tm-content">
+              <!-- Seleção 0 Introdução -->
+              <section class="tm-section tm-section-0">
+                <h2 class="tm-section-title mb-3 font-weight-bold">
+                  Introdução
+                </h2>
+                <div class="tm-textbox tm-bg-dark">
+                  <p>
+                    Esta página foi criada com a intenção de armazenar um pouco da minha essência, ela contém meus
+                    projetos, hobbys, skills e trabalhos profissionais. O propósito é trazer
+                    a luz o que vem me moldando durante essa jornada, será que é a busca por conhecimento, criatividade e a coragem ou tudo isso e mais.  
+                  </p>
+                  <p class="mb-0">
+                    Por favor se sinta à vontade, espero que goste, se quiser conversar comigo entre em contato pelos meios disponibilizados na página.
+                    Obrigado por sua visita. 
+                  </p>
+                </div>
+                <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Leia Mais</a>
+              </section>
+
+               <!-- Seleção 1 Sobre eu -->
+               <section class="tm-section tm-section-1">
+                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
+                  <h2 class="tm-text-blue mb-4">Sobre mim</h2>
+                  <p class="mb-4">
+                    Olá, tudo bem? Me chamo Alexandre Beiruth sou do Acre, mas hoje resido em Curitiba/PR, sou graduado em
+                    arquitetura na PUCGO, porém, migrei recentemente para área da computação, no momento
+                    curso ciências da computação na PUCPR período noturno. 
+                  </p>
+                  <p class="mb-4">
+                    Além da faculdade busco sempre aprimorar minha mente e corpo, me exército nas horas vagas, mas, no entanto,
+                    busco conhecimento diariamente seja por meio da leitura sobre variados
+                    assuntos, estudando em plataformas voltadas para computação e aperfeiçoando meu inglês.
+                    Mente sã Corpo são.
+                          
+                  </p>
+                  <a
+                    href="#"
+                    id="tm_work_link"
+                    data-linkid="2"
+                    class="tm-link m-0"
+                    >Avançar</a
+                  >
+                </div>
+              </section>
+              <!-- Seleção 2 Trabalhos (Galeria) -->
+              <section class="tm-section tm-section-2 mx-auto">
+                <div class="grid tm-gallery">
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="facu02.JPG" alt="Computer" class="" />
+                    <figcaption>
+                      <h2>
+                        Computer
+                        <span>Science</span>
+                      </h2>
+                      <p>Mágica acontecendo na sala da PUCPR</p>
+                      <a href="facu02.JPG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="y01.jpg" alt="Dunas Jeri" class="" />
+                    <figcaption>
+                      <h2>
+                        Natureza
+                        <span>Fotografias</span>
+                      </h2>
+                      <p>Contemplando o pôr do sol</p>
+                      <a href="y01.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="arquit01.JPEG" alt="Arquitetura" class="" />
+                    <figcaption>
+                      <h2>
+                        Olhar sobre 
+                        <span>Arquitetura</span>
+                      </h2>
+                      <p>Luz e sombra, semetria e escala</p>
+                      <a href="arquit01.JPEG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="ler04.jpg" alt="Ler" class="" />
+                    <figcaption>
+                      <h2>
+                        Livros
+                        <span>Conhecimento</span>
+                      </h2>
+                      <p>Leitura sobre 'N' assuntos</p>
+                      <a href="ler04.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="des01.jpg" alt="drawing" class="" />
+                    <figcaption>
+                      <h2>
+                        Esboços
+                        <span>Sketch</span>
+                      </h2>
+                      <p>Rascunhos e esboços anatômicos</p>
+                      <a href="des01.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="arc01.jpg" alt="Obras" class="" />
+                    <figcaption>
+                      <h2>
+                        Criatividade
+                        <span>antes</span>
+                      </h2>
+                      <p>Arquitetura anterior...</p>
+                      <a href="arc01.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="arc02.jpg" alt="Obra" class="" />
+                    <figcaption>
+                      <h2>
+                        Criatividade
+                        <span>depois</span>
+                      </h2>
+                      <p>Arquitetura posterior.</p>
+                      <a href="arc02.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="igreja03.JPEG" alt="Voluntario" class="" />
+                    <figcaption>
+                      <h2>
+                        Trabalhos
+                        <span>Voluntario</span>
+                      </h2>
+                      <p>Grupo de ajuda voluntária</p>
+                      <a href="igreja03.JPEG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="maqt01.png" alt="Maquete" class="" />
+                    <figcaption>
+                      <h2>
+                        Projetos
+                        <span>Maquete 3D</span>
+                      </h2>
+                      <p>Making dreams come true</p>
+                      <a href="maqt01.png">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="jogo01.JPG" alt="Games" class="" />
+                    <figcaption>
+                      <h2>
+                        Continue Play
+                        <span>Games</span>
+                      </h2>
+                      <p>La alma joven que habita en mim :p</p>
+                      <a href="jogo01.JPG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="ler01.JPG" alt="Conhecimento" class="" />
+                    <figcaption>
+                      <h2>
+                        Transmitir
+                        <span>Conhecimento</span>
+                      </h2>
+                      <p>"A ignorância é a causa do medo"</p>
+                      <a href="ler01.JPG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="ac01.jpg" alt="Fotografias" class="" />
+                    <figcaption>
+                      <h2>
+                        Acre
+                        <span>Fotografias</span>
+                      </h2>
+                      <p>Coragem e adaptabilidade está no acreano</p>
+                      <a href="ac01.jpg">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="effect-goliath tm-gallery-item">
+                    <img src="eu.JPEG" alt="Eu" class="" />
+                    <figcaption>
+                      <h2>
+                        Dia-dia
+                        <span>Evolução</span>
+                      </h2>
+                      <p>Me superando a cada dia</p>
+                      <a href="eu.JPEG">Veja mais</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </section>
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bottom-container">
+          <!-- Rodapé -->
+          <footer>
+              <div><p><strong>|| Pagina: </strong><a href="https://github.com/Alebeiruth" target="_blank">https://github.com/Alebeiruth</a><strong> || Email: </strong><a target="_blank">alexandrebeyruth@gmail.com</a>|| <strong>Data:</strong> Setembro de 2022</p>
+              </div>
+          </footer>
+        </div>
+      </div>
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/background.cycle.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/background.cycle.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+      let slickInitDone = false;
+      let previousImageId = 0,
+        currentImageId = 0;
+      let pageAlign = "right";
+      let bgCycle;
+      let links;
+      let eachNavLink;
+
+      window.onload = function() {
+        $("body").addClass("loaded");
+      };
+
+      function navLinkClick(e) {
+        if ($(e.target).hasClass("external")) {
+          return;
+        }
+
+        e.preventDefault();
+
+        if ($(e.target).data("align")) {
+          pageAlign = $(e.target).data("align");
+        }
+
+        // Mudança bg imagem
+        previousImageId = currentImageId;
+        currentImageId = $(e.target).data("linkid");
+        bgCycle.cycleToNextImage(previousImageId, currentImageId);
+
+        // Mudança menu item realçar
+        $(`.tm-nav-item:eq(${previousImageId})`).removeClass("active");
+        $(`.tm-nav-item:eq(${currentImageId})`).addClass("active");
+
+        // Mudança pagina conteudo
+        $(`.tm-section-${previousImageId}`).fadeOut(function(e) {
+          $(`.tm-section-${currentImageId}`).fadeIn();
+          // Galeria
+          if (currentImageId === 2) {
+            setupSlider();
+          }
+        });
+
+        adjustFooter();
+      }
+
+      $(document).ready(function() {
+        // Definir a primeira pagina
+        $(".tm-section").fadeOut(0);
+        $(".tm-section-0").fadeIn();
+
+        // Definir Background imagens
+        // https://www.jqueryscript.net/slideshow/Simple-jQuery-Background-Image-Slideshow-with-Fade-Transitions-Background-Cycle.html
+        bgCycle = $("body").backgroundCycle({
+          imageUrls: [
+            "papel02.jpg",
+            "walp04.jpg",
+            "papel04.png"
+          ],
+          fadeSpeed: 2000,
+          duration: -1,
+          backgroundSize: SCALING_MODE_COVER
+        });
+
+        eachNavLink = $(".tm-nav-link");
+        links = $(".tm-nav-links");
+
+        // "Menu" abrir/fechar
+        if (links.hasClass("open")) {
+          links.fadeIn(0);
+        } else {
+          links.fadeOut(0);
+        }
+
+        $("#tm_about_link").on("click", navLinkClick);
+        $("#tm_work_link").on("click", navLinkClick);
+
+        // Cada menu item click
+        eachNavLink.on("click", navLinkClick);
+
+        $(".tm-navbar-menu").click(function(e) {
+          if (links.hasClass("open")) {
+            links.fadeOut();
+          } else {
+            links.fadeIn();
+          }
+
+          links.toggleClass("open");
+        });
+
+        // janela redimensionar
+        $(window).resize(function() {
+          // Se a pagina atual da Galeria, configure-a
+          if (currentImageId === 2) {
+            setupSlider();
+          }
+
+          // Ajuster reodapé
+          adjustFooter();
+        });
+
+        adjustFooter();
+      }); // DOM está pronto
+
+      function adjustFooter() {
+        const windowHeight = $(window).height();
+        const topHeight = $(".tm-top-container").height();
+        const middleHeight = $(".tm-content").height();
+        let contentHeight = topHeight + middleHeight;
+
+        if (pageAlign === "left") {
+          contentHeight += $(".tm-bottom-container").height();
+        }
+
+        if (contentHeight > windowHeight) {
+          $(".tm-bottom-container").addClass("tm-static");
+        } else {
+          $(".tm-bottom-container").removeClass("tm-static");
+        }
+      }
+
+      function setupSlider() {
+        let slidesToShow = 4;
+        let slidesToScroll = 2;
+        let windowWidth = $(window).width();
+
+        if (windowWidth < 480) {
+          slidesToShow = 1;
+          slidesToScroll = 1;
+        } else if (windowWidth < 768) {
+          slidesToShow = 2;
+          slidesToScroll = 1;
+        } else if (windowWidth < 992) {
+          slidesToShow = 3;
+          slidesToScroll = 2;
+        }
+
+        if (slickInitDone) {
+          $(".tm-gallery").slick("unslick");
+        }
+
+        slickInitDone = true;
+
+        $(".tm-gallery").slick({
+          dots: true,
+          customPaging: function(slider, i) {
+            var thumb = $(slider.$slides[i]).data();
+            return `<a>${i + 1}</a>`;
+          },
+          infinite: true,
+          prevArrow: false,
+          nextArrow: false,
+          slidesToShow: slidesToShow,
+          slidesToScroll: slidesToScroll
+        });
+
+        // Abrir imagem grande quando uma imagem da galeria é clicada.
+        $(".slick-list").magnificPopup({
+          delegate: "a",
+          type: "image",
+          gallery: {
+            enabled: true
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
+</body>
+</html>
